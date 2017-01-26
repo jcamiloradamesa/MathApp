@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="2" testcasecount="1" result="Passed" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="1" engine-version="3.6.0.0" clr-version="4.0.30319.42000" start-time="2017-01-24 14:07:20Z" end-time="2017-01-24 14:07:21Z" duration="0.520218">
+  <command-line><![CDATA[nunit3-console.exe  D:\Aurea\Projects\MathApp\MathApp\bin\Debug\MathApp.exe]]></command-line>
+  <test-suite type="Assembly" id="0-1002" name="MathApp.exe" fullname="D:\Aurea\Projects\MathApp\MathApp\bin\Debug\MathApp.exe" runstate="Runnable" testcasecount="1" result="Passed" start-time="2017-01-24 14:07:21Z" end-time="2017-01-24 14:07:21Z" duration="0.040760" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+    <environment framework-version="3.6.0.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.14393.0" platform="Win32NT" cwd="D:\Programs\NUnit\nunit-console" machine-name="DESKTOP-9ROQ0FN" user="jcami" user-domain="DESKTOP-9ROQ0FN" culture="en-US" uiculture="en-US" os-architecture="x86" />
+    <settings>
+      <setting name="DisposeRunners" value="True" />
+      <setting name="WorkDirectory" value="D:\Programs\NUnit\nunit-console" />
+      <setting name="ImageRuntimeVersion" value="4.0.30319" />
+      <setting name="ImageTargetFrameworkName" value=".NETFramework,Version=v4.5.2" />
+      <setting name="ImageRequiresX86" value="True" />
+      <setting name="RunAsX86" value="True" />
+      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+      <setting name="NumberOfTestWorkers" value="8" />
+    </settings>
+    <properties>
+      <property name="_PID" value="10652" />
+      <property name="_APPDOMAIN" value="domain-" />
+    </properties>
+    <test-suite type="TestSuite" id="0-1003" name="openc_test_app" fullname="openc_test_app" runstate="Runnable" testcasecount="1" result="Passed" start-time="2017-01-24 14:07:21Z" end-time="2017-01-24 14:07:21Z" duration="0.026602" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+      <test-suite type="TestSuite" id="0-1004" name="test" fullname="openc_test_app.test" runstate="Runnable" testcasecount="1" result="Passed" start-time="2017-01-24 14:07:21Z" end-time="2017-01-24 14:07:21Z" duration="0.023296" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+        <test-suite type="TestFixture" id="0-1000" name="MathServiceTest" fullname="openc_test_app.test.MathServiceTest" classname="openc_test_app.test.MathServiceTest" runstate="Runnable" testcasecount="1" result="Passed" start-time="2017-01-24 14:07:21Z" end-time="2017-01-24 14:07:21Z" duration="0.019401" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+          <test-case id="0-1001" name="add" fullname="openc_test_app.test.MathServiceTest.add" methodname="add" classname="openc_test_app.test.MathServiceTest" runstate="Runnable" seed="1646083612" result="Passed" start-time="2017-01-24 14:07:21Z" end-time="2017-01-24 14:07:21Z" duration="0.011075" asserts="1" />
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
