@@ -13,9 +13,9 @@ call %msBuildDir%\msbuild.exe %DF_MSBUILD_BUILD_STATS_OPTS% MathApp.sln  /t:Buil
 REM exit if the above does not succeed
 if %errorlevel% neq 0 exit /b %errorlevel%
 
-REM CD %BASE_DIR%\
-REM mkdir .\output\installers\MathApp\
-REM xcopy /s .\dotNet\MathApp\bin\Debug\MathApp.exe .\output\installers\MathApp\
+CD %BASE_DIR%\
+mkdir .\output\installers\MathApp\
+xcopy /s .\dotNet\MathApp\bin\Debug\MathApp.exe .\output\installers\MathApp\
 
-REM set msBuildDir=
+set msBuildDir=
 exit /b 0;
