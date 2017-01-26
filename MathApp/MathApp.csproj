@@ -57,9 +57,6 @@
       <SubType>Designer</SubType>
     </None>
     <None Include="packages.config" />
-    <None Include="Scripts\debug_build.bat" />
-    <None Include="Scripts\retail_build.bat" />
-    <None Include="Scripts\run_ut.bat" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
