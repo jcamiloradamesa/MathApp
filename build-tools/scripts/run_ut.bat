@@ -1,1 +1,1 @@
-call ".\dotNet\build-tools\nunit\nunit3-console-x86.exe" .\dotNet\MathApp\bin\Debug\MathApp.exe
+call ".\dotNet\build-tools\nunit\nunit-console\nunit3-console.exe" .\dotNet\MathApp\bin\Debug\MathApp.exe
