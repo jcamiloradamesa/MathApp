@@ -1,0 +1,1 @@
+call ".\build-tools\nunit\nunit-console\nunit3-console.exe" .\MathApp\bin\Debug\MathApp.exe
