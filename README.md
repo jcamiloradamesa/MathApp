@@ -1,4 +1,2 @@
 # MathApp.Net
-MathApp.Net application, created to validate Open Cover, coverage information.
-
-Change 1
+MathApp.Net application, created to validate Open Cover coverage information.
